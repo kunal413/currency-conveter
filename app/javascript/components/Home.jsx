@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Currency from "./Currency";
 import DownloadExcel from './DownloadExcel'
+import FatchData from "./FatchData";
 
 export default () => (
   <div className="vw-300 vh-300 primary-color d-flex align-items-center justify-content-center" style={{ backgroundColor: '#f5f5f5' }}>
@@ -15,6 +16,7 @@ export default () => (
         <hr className="my-4" />
         <br />
          <Currency></Currency>
+         <br />
 
         {/* <Link
           to="/"
@@ -24,6 +26,7 @@ export default () => (
           GO For Currency Converter
         </Link> */}
         <DownloadExcel></DownloadExcel>
+        <FatchData/>
       </div>
       
     </div>
